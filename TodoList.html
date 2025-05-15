@@ -1,0 +1,19 @@
+<input id="name" type="text" placeholder="Enter your task">
+<button onclick="add()"> add task</button>
+<ul id="list"> 
+  <li> Work</li> <button onclick="remove(event)"> remove</button>
+</ul> 
+
+<script>
+  var list = document.getElementById("list");
+  var namee = document.getElementById("name");
+  function add() {
+    var li = document.createElement("li");
+    li.innerHTML = namee.value + '<button onclick="remove()"> remove</button>';
+    list.append(li);
+  }
+
+  function remove() {
+    event.target.parentElement.remove();  
+  }
+  </script>
