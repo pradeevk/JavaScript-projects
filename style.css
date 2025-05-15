@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #21344D;
+  font-family: Arial, sans-serif;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  width: 80%;
+  height: 50%;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.header{
+  padding: 3%;
+  width: 80%;
+  height: 10%;
+  background-color: black;
+  color: white;
+}
+.name{
+background-color: transparent;
+padding-left: 4%;
+}
+.namei{
+  border: none;
+  border-bottom: #21344D 2px solid;
+background-color: transparent;
+color: white;
+width: 50%;
+}
+.phone{
+  background-color: transparent;
+padding-left: 4%;
+padding-top: 1%;
+color: white;
+}
+.phonei{
+  background-color: transparent;
+  border: none;
+  border-bottom: #21344D 2px solid;
+  color: white;
+}
+
+.email{
+  background-color: transparent;
+padding-left: 4%;
+padding-top: 1%;
+color: white;
+}
+
+label{
+  display: block;
+  font-size: smaller;
+  color: red;
+  visibility: hidden;
+}
+
+.btn{
+  background-color: green;
+  color: white;
+padding: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+justify-content: center;
+  
+  
+}
